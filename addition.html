@@ -1,0 +1,40 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+
+/*    sum of a number
+var num = prompt("Enter a number");
+var sum =0;
+var rem = 0;
+while(num!=0){
+	rem = num%10;
+	sum = sum+rem;
+	num = parseInt(num/10);
+}
+console.log(sum);*/
+
+
+/*var num = prompt("Enter a number");*/
+num=2583
+var even =0;
+var odd =0;
+var rem = 0;
+
+while(num!=0){
+	rem = num%10;
+	var x=rem%2;
+	if(rem%2==0){
+	even = even+rem;
+	}
+	else{
+		odd = odd+rem;
+	}
+	num = parseInt(num/10);
+}
+console.log("even:"+even);
+console.log("odd:"+odd);
+</script>
+</body>
+</html>
